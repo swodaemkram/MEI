@@ -8,22 +8,16 @@
  ============================================================================
  */
 
-#include <stdio.h>
-#include <stdlib.h>
 
+#include <stdlib.h>
 #include <unistd.h>
 #include <stdio.h>
 #include <string.h>
-#include <arpa/inet.h>
-#include <sys/socket.h>
 #include <stdlib.h>
 #include <time.h>
 #include <sys/time.h>
-#include <signal.h>
-
 #include <termios.h>
 #include <fcntl.h>
-#include <sys/signal.h>
 #include <sys/types.h>
 
 
