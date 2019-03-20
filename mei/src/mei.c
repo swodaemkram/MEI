@@ -4,7 +4,7 @@
  Author      : Mark Meadows
  Version     : 00.00.01
  Copyright   : Fireking Security Group
- Description : Hello World in C, Ansi-style
+ Description : mei validator driver in C, Ansi-style
  ============================================================================
  */
 
