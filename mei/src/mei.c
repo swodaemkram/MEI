@@ -36,7 +36,7 @@
 #include "enablebmk_command.h"
 #include "disabletime_command.h"
 #include "mei_Constants.h"
-
+#include "reply_from_mei.h"
 
 /* baudrate settings are defined in <asm/termbits.h>, which is
 included by <termios.h> */
