@@ -26,6 +26,18 @@
 #include <sys/signal.h>
 #include <sys/types.h>
 
+
+#include "enable_command.h"
+#include "dissable_command.h"
+#include "reset_command.h"
+#include "accept_command.h"
+#include "direction_command.h"
+#include "download_command.h"
+#include "enablebmk_command.h"
+#include "disabletime_command.h"
+
+
+
 /* baudrate settings are defined in <asm/termbits.h>, which is
 included by <termios.h> */
 #define BAUDRATE B9600
