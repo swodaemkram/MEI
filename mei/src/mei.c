@@ -41,7 +41,7 @@
 /* baudrate settings are defined in <asm/termbits.h>, which is
 included by <termios.h> */
 #define BAUDRATE B9600
-#define MODEMDEVICE "/dev/ttyACM0" //set the USBGPIO_Port
+#define MODEMDEVICE "/dev/ttyS1" //set the USBGPIO_Port
 #define _POSIX_SOURCE 1 /* POSIX compliant source */
 #define FALSE 0
 #define TRUE 1
@@ -50,7 +50,7 @@ volatile int STOP=FALSE;
 
 int main(void) {
 
-
+		printf("\n%x\n",MEI_DOWNLOAD);
 
 
 		int fd;
@@ -67,7 +67,7 @@ int main(void) {
 		if (fd <0)
 				{
 			    perror(MODEMDEVICE);
-			    printf("Could not open USBGPIO Hardware");
+			    printf("Could not open Comm port");
 			    exit(1);
 			   	}
 		tcgetattr(fd,&oldtio); /* save current serial port settings */
