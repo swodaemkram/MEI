@@ -37,6 +37,7 @@
 #include "detect.h"
 #include "log_function.h"
 #include "setup_comm_port.h"
+#include "get_status.h"
 
 volatile int STOP=FALSE;
 
