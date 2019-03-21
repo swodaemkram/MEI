@@ -12,6 +12,6 @@
 
 #endif /* GET_STATS_H_ */
 
-get_stats() {
-	return(0);
+void get_stats() {
+	return;
 }

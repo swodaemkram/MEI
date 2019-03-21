@@ -11,6 +11,6 @@
 
 
 #endif /* COMMAND_H_ */
-command(){
-	return(0);
+void command(){
+	return;
 }

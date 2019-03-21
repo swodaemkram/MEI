@@ -11,6 +11,6 @@
 
 
 #endif /* CRCXOR_H_ */
-crcxor(){
-	return(0);
+void crcxor(){
+	return;
 }

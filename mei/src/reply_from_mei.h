@@ -11,6 +11,6 @@
 
 
 #endif /* REPLY_FROM_MEI_H_ */
-reply_from_mei(){
-return(0);
+void reply_from_mei(){
+return;
 }

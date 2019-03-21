@@ -11,6 +11,6 @@
 
 
 #endif /* DO_REQUEST_H_ */
-do_request(){
-	return(0);
+void do_request(){
+	return;
 }

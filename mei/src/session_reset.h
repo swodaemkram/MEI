@@ -11,6 +11,6 @@
 
 
 #endif /* SESSION_RESET_H_ */
-session_reset(){
-	return(0);
+void session_reset(){
+	return;
 }

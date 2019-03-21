@@ -11,6 +11,6 @@
 
 
 #endif /* PROCESS_POLL_H_ */
-process_poll(){
-	return(0);
+void process_poll(){
+	return;
 }

@@ -12,6 +12,6 @@
 
 #endif /* SESSION_ADD_H_ */
 
-session_add(){
-	return(0);
+void session_add(){
+	return;
 }

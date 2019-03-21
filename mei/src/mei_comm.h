@@ -11,6 +11,6 @@
 
 
 #endif /* MEI_COMM_H_ */
-mei_comm(){
-	return(0);
+void mei_comm(){
+	return;
 }

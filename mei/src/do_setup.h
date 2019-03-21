@@ -12,7 +12,7 @@
 
 #endif /* DO_SETUP_H_ */
 
-do_setup(){
+void do_setup(){
 
 	int fd;
 	fd = open(MODEMDEVICE, O_RDWR | O_NOCTTY );
@@ -23,5 +23,5 @@ do_setup(){
 	write(fd,MEI_GETSERIAL,2);
 	write(fd,MEI_GETVARNAME,2);
 
-	return(0);
+	return;
 }

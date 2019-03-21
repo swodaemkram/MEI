@@ -11,6 +11,6 @@
 
 
 #endif /* DETECT_H_ */
-detect(){
-	return(0);
+void detect(){
+	return;
 }

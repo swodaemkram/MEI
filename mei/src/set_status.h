@@ -11,6 +11,6 @@
 
 
 #endif /* SET_STATUS_H_ */
-set_status(){
-	return(0);
+void set_status(){
+	return;
 }

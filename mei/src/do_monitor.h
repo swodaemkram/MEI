@@ -11,6 +11,6 @@
 
 
 #endif /* DO_MONITOR_H_ */
-do_monitor(){
-	return(0);
+void do_monitor(){
+	return;
 }

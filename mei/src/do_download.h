@@ -11,6 +11,6 @@
 
 
 #endif /* DO_DOWNLOAD_H_ */
-do_download(){
-	return(0);
+void do_download(){
+	return;
 }
