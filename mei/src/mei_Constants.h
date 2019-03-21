@@ -14,6 +14,15 @@
 
 
 
+
+#define MODEMDEVICE "/dev/ttyS1" //set the USBGPIO_Port
+/* baudrate settings are defined in <asm/termbits.h>, which is
+included by <termios.h> */
+#define BAUDRATE B9600
+#define MODEMDEVICE "/dev/ttyS1" //set the USBGPIO_Port
+#define _POSIX_SOURCE 1 /* POSIX compliant source */
+#define FALSE 0
+#define TRUE 1
 /* MEI Constants */
 
 	// Byte 0 Status

@@ -20,25 +20,22 @@
 #include <fcntl.h>
 #include <sys/types.h>
 
-
-#include "enable_command.h"
-#include "dissable_command.h"
-#include "reset_command.h"
-#include "accept_command.h"
-#include "direction_command.h"
-#include "download_command.h"
-#include "enablebmk_command.h"
-#include "disabletime_command.h"
 #include "mei_Constants.h"
 #include "reply_from_mei.h"
+#include "do_setup.h"
+#include "do_monitor.h"
+#include "get_stats.h"
+#include "process_poll.h"
+#include "do_request.h"
+#include "session_add.h"
+#include "mei_comm.h"
+#include "crcxor.h"
+#include "set_status.h"
+#include "command.h"
+#include "session_reset.h"
+#include "do_download.h"
+#include "detect.h"
 
-/* baudrate settings are defined in <asm/termbits.h>, which is
-included by <termios.h> */
-#define BAUDRATE B9600
-#define MODEMDEVICE "/dev/ttyS1" //set the USBGPIO_Port
-#define _POSIX_SOURCE 1 /* POSIX compliant source */
-#define FALSE 0
-#define TRUE 1
 volatile int STOP=FALSE;
 
 
