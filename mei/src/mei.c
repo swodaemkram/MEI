@@ -35,6 +35,8 @@
 #include "session_reset.h"
 #include "do_download.h"
 #include "detect.h"
+#include "log_function.h"
+
 
 volatile int STOP=FALSE;
 
