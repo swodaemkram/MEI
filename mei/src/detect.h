@@ -11,6 +11,12 @@
 
 
 #endif /* DETECT_H_ */
-void detect(){
+int detect(){
+
+		if (detected = 1){
+			return(1);
+
+		}
+
 	return;
 }

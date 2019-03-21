@@ -36,14 +36,14 @@
 #include "do_download.h"
 #include "detect.h"
 #include "log_function.h"
-
+#include "setup_comm_port.h"
 
 volatile int STOP=FALSE;
 
 
 int main(void) {
 
-		printf("\n%x\n",MEI_DOWNLOAD);
+
 
 
 		int fd;

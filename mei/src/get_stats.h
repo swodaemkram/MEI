@@ -13,5 +13,13 @@
 #endif /* GET_STATS_H_ */
 
 void get_stats() {
+
+	if(connected != 1){
+		return;
+	}
+
+
+
+
 	return;
 }
