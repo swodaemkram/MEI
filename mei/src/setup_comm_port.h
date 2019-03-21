@@ -46,7 +46,7 @@ int setup_comm_port(){
 			: local connection, no modem contol
 			: enable receiving characters
 			*/
-			newtio.c_cflag = BAUDRATE | CRTSCTS | CS8 | CLOCAL | CREAD;
+			newtio.c_cflag = BAUDRATE | CRTSCTS | CS7 | CLOCAL | CREAD;
 			/*
 			IGNPAR
 			ICRNL

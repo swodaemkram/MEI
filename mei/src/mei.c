@@ -19,25 +19,29 @@
 #include <sys/types.h>
 #include <stdbool.h>
 
-
-#include "mei_Constants.h"
-#include "reply_from_mei.h"
+#include "close.h"
+#include "command.h"
+#include "crcxor.h"
+#include "detect.h"
+#include "download.h"
 #include "do_setup.h"
 #include "do_monitor.h"
-#include "get_stats.h"
-#include "process_poll.h"
 #include "do_request.h"
-#include "session_add.h"
-#include "mei_comm.h"
-#include "crcxor.h"
-#include "set_status.h"
-#include "command.h"
-#include "session_reset.h"
 #include "do_download.h"
-#include "detect.h"
-#include "log_function.h"
-#include "setup_comm_port.h"
+#include "do_sleep.h"
+#include "get_stats.h"
 #include "get_status.h"
+#include "get_info.h"
+#include "log_function.h"
+#include "mei_comm.h"
+#include "mei_Constants.h"
+#include "process_poll.h"
+#include "session_add.h"
+#include "session_reset.h"
+#include "set_status.h"
+#include "setup_comm_port.h"
+#include "reply_from_mei.h"
+
 
 volatile int STOP=FALSE;
 
