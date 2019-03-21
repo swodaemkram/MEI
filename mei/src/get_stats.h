@@ -12,7 +12,7 @@
 
 #endif /* GET_STATS_H_ */
 
-void get_stats() {
+void get_stats(int connected) {
 
 	if(connected != 1){
 		return;
