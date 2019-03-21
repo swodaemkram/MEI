@@ -11,3 +11,6 @@
 
 
 #endif /* DISABLETIME_COMMAND_H_ */
+disabletime_command(){
+
+}

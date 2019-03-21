@@ -3,7 +3,7 @@
  Name        : mei.c
  Author      : Mark Meadows
  Version     : 00.00.01
- Copyright   : Fireking Security Group
+ Copyright   : (c) Copyright 2019 FK Security Group, All rights reserved.
  Description : mei validator driver in C, Ansi-style
  ============================================================================
  */

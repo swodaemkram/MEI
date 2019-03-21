@@ -11,3 +11,6 @@
 
 
 #endif /* ENABLE_COMMAND_H_ */
+enable_command(){
+
+}

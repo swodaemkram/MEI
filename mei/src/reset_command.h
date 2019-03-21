@@ -11,3 +11,6 @@
 
 
 #endif /* RESET_COMMAND_H_ */
+reset_command(){
+
+}

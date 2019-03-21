@@ -11,3 +11,6 @@
 
 
 #endif /* DIRECTION_COMMAND_H_ */
+direction_command(){
+
+}

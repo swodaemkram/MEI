@@ -11,3 +11,6 @@
 
 
 #endif /* ACCEPT_COMMAND_H_ */
+accept_command(){
+
+}

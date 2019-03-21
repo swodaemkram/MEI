@@ -11,3 +11,6 @@
 
 
 #endif /* DOWNLOAD_COMMAND_H_ */
+download_command(){
+
+}

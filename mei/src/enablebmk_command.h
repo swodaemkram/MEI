@@ -11,3 +11,6 @@
 
 
 #endif /* ENABLEBMK_COMMAND_H_ */
+enablebmk_command(){
+
+}

@@ -11,3 +11,6 @@
 
 
 #endif /* DISSABLE_COMMAND_H_ */
+dissable_command(){
+
+}
